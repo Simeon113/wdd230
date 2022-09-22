@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
-body {font-family: 'merriweather';}
+body {
+    font-family: 'merriweather';
+    max-width: 1600px;
+    margin: 0 auto;
+}
 
 header {
     background-color: purple;
