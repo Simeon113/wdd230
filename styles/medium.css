@@ -1,0 +1,30 @@
+@media (min-width: 32.5em)
+{
+header h1 {
+    font-size: 100px;
+    padding: 100px;
+}
+header {
+    border-radius: 50px;
+    margin: 50px;
+    padding: 40px 0px 40px 70px;
+}
+
+header img {
+    border-radius: 50;
+}
+main h2{
+    font-size: 70px;
+
+}
+main ul{
+    font-size: 50px;
+}
+footer {
+    font-size: 50px;
+    margin: 50px;
+    padding: 40px;
+    border-radius: 50px;
+}
+}
+
