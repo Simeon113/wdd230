@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&family=Francois+One&display=swap');
+
+header {
+    font-family: 'Francois One';
+}
+main {
+    font-family: 'Arima Madurai';
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.5em;
+    display: block;
+    }
+
+nav a:hover {
+    background-color: #D4A0A7;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #C84630;
+}
+img {
+    display: block;
+    margin: auto;
+    width: 80%;
+
+}
+
+
+#colors div {
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#C84630 {
+    background-color: #C84630;
+}
+
+#D4A0A7 {
+    background-color: #D4A0A7;
+}
+
+#E3E3E3 {
+    background-color: #E3E3E3;
+}
+
+#C898989 {
+    background-color: #898989;
+}
+
+#C5DA271 {
+    background-color: #5DA271;
+}
+
+#typo h2 {
+    font-family: 'Francios One';
+}
+
+#typo {
+    text-align: center;
+    margin: 50px;
+}

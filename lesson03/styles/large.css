@@ -1,0 +1,13 @@
+@media (min-width: 65em)
+{
+nav a {
+    padding: 50px;
+}
+#typo {
+    font-size: 2em
+}
+#text2{
+    margin-left: 20px;
+    margin-right: 40%;
+}
+}

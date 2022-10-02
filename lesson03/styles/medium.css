@@ -1,0 +1,34 @@
+@media (min-width: 32.5em)
+{
+nav a {
+    padding: 30px;
+}
+
+nav {
+    flex-direction: row;
+}
+#colors div{
+    text-align: left;
+}
+
+#typo {
+    font-size: 1.5em;
+}
+#home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#text {
+    grid-column: 1;
+    margin: 20px;
+    text-align: left;
+}
+
+#logo{
+    grid-column: 2;
+}
+#text2 {
+    margin: 20px;
+}
+}
