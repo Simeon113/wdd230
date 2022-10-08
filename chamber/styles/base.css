@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&family=Francois+One&display=swap');
+
+
+img {
+    margin: 10px;
+}
+
+header img {
+    width: 30%;
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.topnav {
+    display: flex;
+    align-items: center;
+}
+header, footer{
+    background-color: #C84630;
+    font-family: "Francois One";
+    color: white;
+    text-align: center;
+    padding:15px 0;
+}
+
+button, i{
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    color: white;
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    border-top: 1px solid white;
+}
+nav ul li.active a {
+    background-color: rgba(0,0,0,0.2);
+    color:#fff;
+}
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#menu span:nth-child(1) {display: block;}
+#menu span:nth-child(2) {display: none;}
+
+#menu.open span:nth-child(1) {display: none;}
+#menu.open span:nth-child(2) {display: block;}
+
+main {
+    font-family: "Arima Madurai";
+}
+main div {
+    background-color: gray;
+    margin: 5px;
+    height: 200px;
+}
+
+
+footer img{
+    width: 50%;
+}

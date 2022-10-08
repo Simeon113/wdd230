@@ -1,0 +1,47 @@
+@media only screen and (min-width: 35rem) {
+
+    
+    
+    header img {
+        width: 25%;
+    }
+    button, i{
+        font-size: 3rem;
+    }
+    footer {
+        padding:0 20px;
+        
+    }
+    footer img {
+        width: 20%;
+    }
+    #upperfooter{
+        display: flex;
+        align-items: center;
+    }
+
+    #upperfooter div p{
+        padding-right: 70px;
+        text-align: left;
+    }
+
+    #lowerfooter{
+        display: flex;
+        border-top: 1px solid white;
+        justify-content: center;
+        
+    }
+    #lowerfooter p{
+        padding: 0 20px;
+        border-right: 3px solid white;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #hero, #weather, #join{
+        grid-column: 1/3;
+    }
+  
+
+}
