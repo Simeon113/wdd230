@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Patrick+Hand&display=swap');
+
+body {
+    max-width: fit-content;
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'Patrick Hand';
+    font-size: 1.5em;
+}
+
+header {
+    background-color: purple;
+    padding: 10px;
+}
+
+
+
+#examples h3, p{
+    padding: 20px;
+}
+
+#section1, #section2, #section3{
+    grid-column: 0/6;
+    background-color: #301934;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: purple;;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    padding-left: 20px;
+    color: white;
+}
