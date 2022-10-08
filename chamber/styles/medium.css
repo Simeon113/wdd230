@@ -27,13 +27,13 @@
 
     #lowerfooter{
         display: flex;
-        border-top: 1px solid white;
+        border-top: 1px solid #E3E3E3;
         justify-content: center;
         
     }
     #lowerfooter p{
         padding: 0 20px;
-        border-right: 3px solid white;
+        border-right: 3px solid #E3E3E3;
     }
     main {
         display: grid;

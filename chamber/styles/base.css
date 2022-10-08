@@ -18,7 +18,7 @@ header img {
 header, footer{
     background-color: #C84630;
     font-family: "Francois One";
-    color: white;
+    color: #E3E3E3;
     text-align: center;
     padding:15px 0;
 }
@@ -28,7 +28,7 @@ button, i{
     background: transparent;
     border: none;
     font-size: 2rem;
-    color: white;
+    color: #E3E3E3;
     
 }
 nav ul {
@@ -37,11 +37,11 @@ nav ul {
     margin: 0;
 }
 nav ul li a {
-    color: white;
+    color: #E3E3E3;
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    border-top: 1px solid white;
+    border-top: 1px solid #E3E3E3;
 }
 nav ul li.active a {
     background-color: rgba(0,0,0,0.2);
@@ -63,7 +63,7 @@ main {
     font-family: "Arima Madurai";
 }
 main div {
-    background-color: gray;
+    background-color: #D4A0A7;
     margin: 5px;
     height: 200px;
 }

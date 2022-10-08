@@ -3,11 +3,11 @@
     nav ul#navigation{
         display: flex;
         margin-left: 2vw;
-        border-left: 1px solid white;
+        border-left: 1px solid #E3E3E3;
     }
     nav ul li a {
         border: none;
-        border-right: 1px solid white;
+        border-right: 1px solid #E3E3E3;
     }
     #upperfooter div p{
         padding-right: 140px;
