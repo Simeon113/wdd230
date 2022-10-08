@@ -1,6 +1,6 @@
 @media (min-width: 65em)
 {
-nav a {
+nav a, #footer p {
     padding: 50px;
 }
 #typo {

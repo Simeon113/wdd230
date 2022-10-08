@@ -4,8 +4,11 @@ nav a {
     padding: 30px;
 }
 
-nav {
+nav, #footer {
     flex-direction: row;
+}
+#footer p{
+    padding: 15px;
 }
 #colors div{
     text-align: left;
@@ -14,16 +17,26 @@ nav {
 #typo {
     font-size: 1.5em;
 }
-#home {
+#home, #personas {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2;
 }
-
+#rui {
+    grid-column: 1/2;
+}
+#trevor {
+    grid-column: 2/3;
+}
+img {
+    grid-row: 2;
+}
 #text {
     grid-column: 1;
     margin: 20px;
     text-align: left;
 }
+
 
 #logo{
     grid-column: 2;
