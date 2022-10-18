@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&family=Francois+One&display=swap');
+body {
+    margin: 0;
+}
 
-
-img {
-    margin: 10px;
+main {
+    margin: 2.5vw;
+    text-align: center;
 }
 
 header img {
@@ -59,16 +62,72 @@ nav ul.open {display: block;}
 #menu.open span:nth-child(1) {display: none;}
 #menu.open span:nth-child(2) {display: block;}
 
-main {
+main, #meeting {
     font-family: "Arima Madurai";
 }
 main div {
     background-color: #D4A0A7;
-    margin: 5px;
-    height: 200px;
+    margin: .5vw;
+    padding: .5vw;
+    height: 58.71vw;
+    
+
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+#meeting{
+    background-color: #D4A0A7;
+    color: #E3E3E3;
+    text-align: center;
+    font-size: 1.5em;
+    height: auto;
+    display: none;
+    padding: 1rem;
+}
+#join {
+    display: none;
+}
+#spotlights{
+    height: auto;
+}
+#spotlight1, #spotlight2, #spotlight3{
+    background-color:  #E3E3E3;
+}
+#spotlight3 {
+    display: none;
+}
+#weather1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
+#weather2 {
+    font-size: 2rem;
+}
 
 footer img{
     width: 50%;
+}
+#hero {
+    position: relative;
+}
+
+#joinbtn {
+    background-color: #C84630;
+    border-radius: 10px;
+    padding: 13px;
+    color: #E3E3E3;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin:40% 20%;
+    
+}
+
+
+
+h2, h3, button {
+    font-family: "Francois One";
 }
