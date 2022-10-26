@@ -8,7 +8,7 @@ main {
     text-align: center;
 }
 
-header img {
+.logo {
     width: 30%;
     margin-right: auto;
     margin-left: 10px;
@@ -76,6 +76,7 @@ main div {
 img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 #meeting{
     background-color: #D4A0A7;
@@ -98,6 +99,9 @@ img {
 #spotlight3 {
     display: none;
 }
+#weather{
+    height: auto;
+}
 #weather1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -107,7 +111,7 @@ img {
     font-size: 2rem;
 }
 
-footer img{
+.logo_footer {
     width: 50%;
 }
 #hero {
@@ -122,7 +126,7 @@ footer img{
     position: absolute;
     right: 0;
     left: 0;
-    margin:40% 20%;
+    margin:40% 15%;
     
 }
 

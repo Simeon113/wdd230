@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
     <script src="https://kit.fontawesome.com/a4a3260b99.js" crossorigin="anonymous"></script>
     <meta name="description" content="The homepage for the Muskego Chamber of Commerce page, made for WDD 230">
 </head>
@@ -16,7 +17,7 @@
     <header>
         <div id="top">
             <div class="topnav">
-                <img src="images/logo.png" alt="site logo">
+                <a class="logo" href="index.html"><img  src="images/logo.webp" alt="site logo"></a>
                 <h1>Muskego Chamber of Commerce</h1>
                 <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://twitter.com/home"><i class="fa-brands fa-twitter"></i></a>
@@ -38,7 +39,11 @@
     </div>
     <main>
         <div id="hero">
-            <img id = "img" src="" alt = "hero image">
+            <picture>
+                <source media="(min-width:1040px)" srcset="images/large.png">
+                <source media="(min-width:560px)" srcset="images/medium.png">
+                <img src="images/small.png" alt="hero image">
+            </picture>
             <button id = 'joinbtn'>Join the Chamber!</button>
         </div>
         <div id="news">
@@ -55,13 +60,14 @@
             <div id="weather1">
                 <div id="weather2">
                     <p>Cloudy</p>
-                    <p>39°F</p>
+                    <p><span id="temperature">43</span>°F</p>
                 </div>
                 <div>
                     <i class="fa-solid fa-cloud"></i>
                     <p>Percip: 3%</p>
                     <p>Humidity: 66%</p>
-                    <p>Wind: 15 mph</p>
+                    <p>Wind: <span id="wind">15</span> mph</p>
+                    <p>Windchill: <span id="windchill"></span></p>
                 </div>
             </div>
         </div>
@@ -86,7 +92,7 @@
     </main>
     <footer>
         <div id="upperfooter">
-            <img src="images/LogoM.png">
+            <a class="logo_footer" href="index.html"><img src="images/logo.webp" alt="site logo"></a>
             <div>
                 <p>Muskego Chamber of Commerce</p>
                 <p>S73W16663 W Janesville Rd, Muskego, WI</p>
