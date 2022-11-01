@@ -5,6 +5,8 @@ div {
 
 #example {
     display: none;
+    margin: 20%;
+    background-color: coral;
 }
 
 /* @keyframes example {
