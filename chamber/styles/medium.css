@@ -90,4 +90,24 @@
     margin-top: 5%;
 }
 
+#discover {
+    grid-column: 1/6;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+}
+#discover_img {
+    grid-column: 1/4;
+}
+#discover p {
+    grid-column: 4/6;
+}
+#demographic {
+    grid-column: 1/6;
+}
+
+#discover img:hover {
+    opacity: .5;
+}
+
 }

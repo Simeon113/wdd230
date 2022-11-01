@@ -135,3 +135,15 @@ img {
 h2, h3, button {
     font-family: "Francois One";
 }
+
+#discover {
+    height: auto;
+
+}
+#discover_img {
+    height: auto;
+}
+#demographic {
+    font-size: 2rem;
+    color: #E3E3E3;
+}

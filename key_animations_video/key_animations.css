@@ -1,0 +1,153 @@
+div {
+    margin: auto;
+    text-align: center;
+}
+
+
+/* @keyframes example {
+    from {font-size: 2rem;}
+    to {font-size: 5rem;}
+}
+
+div {
+    animation-name: example;
+    animation-duration: 5s ;
+} */
+
+/* @keyframes example2 {
+    from {font-style: italic;}
+    to {font-style: none;}
+}
+
+div {
+    animation-name: example2;
+    animation-duration: 2s ;
+} */
+
+/* @keyframes example3 {
+    from {font-style: italic; color: blue;}
+    to {font-style: none; color: greenyellow;}
+}
+
+div {
+    animation-name: example3;
+    animation-duration: 2s ;
+} */
+
+/* @keyframes example4 {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+
+div {
+    animation-name: example4;
+    animation-duration: 5s ;
+} */
+
+/* @keyframes example5 {
+    25% {background-color: aqua;}
+    50% {background-color: brown;}
+}
+
+div {
+    animation-name: example5;
+    animation-duration: 8s;
+} */
+
+/* @keyframes example6 {
+    5% {left: 0px; top: 5px;}
+    40% {left: 300px; top: 550px;}
+    90% {left: 500px; top: 490px;}
+}
+
+div {
+    animation-name: example6;
+    position: relative;
+    animation-duration: 10s;
+} */
+
+/* @keyframes example7 {
+    5% {left: 0px; top: 5px;}
+    40% {left: 300px; top: 550px;}
+    90% {left: 500px; top: 490px;}
+}
+
+div {
+    animation-name: example7;
+    position: relative;
+    animation-duration: 10s;
+    animation-delay: 5s;
+} */
+
+
+/* @keyframes example8 {
+    5% {left: 0px; top: 5px;}
+    40% {left: 300px; top: 550px;}
+    90% {left: 500px; top: 490px;}
+}
+
+div {
+    animation-name: example8;
+    position: relative;
+    animation-duration: 10s;
+    animation-iteration-count: 3;
+} */
+
+/* @keyframes example9 {
+    5% {left: 0px; top: 5px;}
+    40% {left: 300px; top: 550px;}
+    90% {left: 500px; top: 490px;}
+}
+
+div {
+    animation-name: example9;
+    position: relative;
+    animation-duration: 10s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+} */
+
+/* @keyframes example10 {
+    from {left: 0px; top: 5px;}
+    to {left: 300px; top: 700px;}
+}
+
+div {
+    animation-name: example10;
+    position: relative;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* animation-timing-function: ease; */
+    /* animation-timing-function: linear; */
+    /* animation-timing-function: ease-in; */
+    /* animation-timing-function: ease-out; */
+    /* animation-timing-function: ease-in-out; */
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1) */
+} */
+
+/* @keyframes example11 {
+    from {left: 0px; top: 5px; background-color: aqua;}
+    to {left: 300px; top: 500px; background-color: blueviolet;}
+}
+
+div {
+    animation-name: example11;
+    position: relative;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-delay: 2s;
+    /* animation-fill-mode: forwards; */
+    /* animation-fill-mode: backwards; */
+    /* animation-fill-mode: both; */
+} */
+
+
