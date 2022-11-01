@@ -3,6 +3,9 @@ div {
     text-align: center;
 }
 
+#example {
+    display: none;
+}
 
 /* @keyframes example {
     from {font-size: 2rem;}
@@ -25,8 +28,8 @@ div {
 } */
 
 /* @keyframes example3 {
-    from {font-style: italic; color: blue;}
-    to {font-style: none; color: greenyellow;}
+    from {font-style: italic; color: blue; transform: rotate(0);}
+    to {font-style: none; color: greenyellow; tranform: rotate(180);}
 }
 
 div {
@@ -150,4 +153,32 @@ div {
     /* animation-fill-mode: both; */
 } */
 
+/* @keyframes example12 {
+    from {left: 0px; top: 5px; background-color: aqua;}
+    to {left: 300px; top: 500px; background-color: blueviolet;}
+}
 
+div {
+    animation-name: example12;
+    position: relative;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-delay: 2s;
+    animation-play-state: paused;
+}
+div: :hover {
+    animation-play-state: running;
+} */
+@keyframes example13 {
+    from {left: 0px; top: 5px; background-color: aqua;}
+    to {left: 300px; top: 500px; background-color: blueviolet;}
+}
+
+div {
+    animation-name: example13;
+    position: relative;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-delay: 2s;
+
+}
