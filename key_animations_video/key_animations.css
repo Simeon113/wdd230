@@ -31,26 +31,28 @@ div {
 div {
     animation-name: example2;
     animation-duration: 2s ;
+    animation-iteration-count: infinite;
 } */
 
 /* @keyframes example3 {
-    from {font-style: italic; color: blue; transform: rotate(0);}
-    to {font-style: none; color: greenyellow; tranform: rotate(180);}
+    from {font-style: italic; color: blue; font-size: 2rem;}
+    to {font-style: none; color: greenyellow; font-size: 5rem;}
 }
 
 div {
     animation-name: example3;
     animation-duration: 2s ;
+    animation-iteration-count: infinite;
 } */
 
 /* @keyframes example4 {
     from {
-        margin-left: 100%;
+        margin-left: 50%;
         width: 300%;
     }
 
     to {
-        margin-left: 0%;
+        margin-left: -50%;
         width: 100%;
     }
 }
@@ -59,6 +61,7 @@ div {
 div {
     animation-name: example4;
     animation-duration: 5s ;
+    animation-iteration-count: infinite;
 } */
 
 /* @keyframes example5 {
@@ -69,11 +72,12 @@ div {
 div {
     animation-name: example5;
     animation-duration: 8s;
+    animation-iteration-count: infinite;
 } */
 
 /* @keyframes example6 {
-    5% {left: 0px; top: 5px;}
-    40% {left: 300px; top: 550px;}
+    5% {left: -200px; top: 5px;}
+    40% {left: 300px; top: 550px; transform: rotate(180deg)}
     90% {left: 500px; top: 490px;}
 }
 
@@ -81,10 +85,11 @@ div {
     animation-name: example6;
     position: relative;
     animation-duration: 10s;
+    animation-iteration-count: infinite;
 } */
 
 /* @keyframes example7 {
-    5% {left: 0px; top: 5px;}
+    5% {left: -200px; top: 5px;}
     40% {left: 300px; top: 550px;}
     90% {left: 500px; top: 490px;}
 }
@@ -94,6 +99,7 @@ div {
     position: relative;
     animation-duration: 10s;
     animation-delay: 5s;
+    animation-iteration-count: infinite;
 } */
 
 
