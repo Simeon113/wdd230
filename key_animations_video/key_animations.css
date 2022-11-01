@@ -175,7 +175,7 @@ div {
 div:hover {
     animation-play-state: running;
 } */
-@keyframes example13 {
+/* @keyframes example13 {
     from {left: 0px; top: 5px; background-color: aqua;}
     to {left: 300px; top: 500px; background-color: blueviolet;}
 }
@@ -190,6 +190,6 @@ div:hover {
 }
 #example1:hover {
     animation-play-state: running;
-} 
+}  */
 
 
