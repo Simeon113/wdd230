@@ -1,0 +1,36 @@
+table {
+    margin: 10px auto;
+    border: thin solid black;
+    box-shadow: 0 0 30px gray;
+    border-collapse: collapse;
+    margin-top: 100px;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: var black;
+    font-size: .85rem;
+}
+
+tr:first-child th, .highlight {
+    background-color: purple;
+    color: white;
+}
+
+th, td {
+    padding: 7px 15px;
+    border: 1px solid black;
+}
+
+th {
+    background-color: #CBC3E3;
+}
+
+td {
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: lavender;
+}

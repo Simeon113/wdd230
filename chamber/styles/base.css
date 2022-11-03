@@ -6,6 +6,14 @@ body {
 main {
     margin: 2.5vw;
     text-align: center;
+    /* height: fit-content; */
+    /* display: inline-block; */
+    height: auto;
+    /* overflow: hidden; */
+    /* float: bottom; */
+    max-height: none;
+    max-height: fit-content;
+    height: fit-content;
 }
 
 .logo {
