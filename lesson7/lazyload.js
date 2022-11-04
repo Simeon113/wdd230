@@ -1,3 +1,9 @@
+let options = {
+  root: document.querySelector('#scrollArea'),
+  rootMargin: '0px',
+  threshold: 1.0
+}
+
 let imagesToLoad = document.querySelectorAll("img[data-src]");
 const loadImages = (image) => {
   image.setAttribute("src", image.getAttribute("data-src"));
@@ -9,6 +15,8 @@ const loadImages = (image) => {
 imagesToLoad.forEach((img) => {
     loadImages(img);
   });
+
+
 
 if ("IntersectionObserver" in window) {
     const observer = new IntersectionObserver((items, observer) => {
