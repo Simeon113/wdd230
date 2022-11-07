@@ -4,17 +4,15 @@ body {
     place-items: center;
     
 }
-
+img[data-src] {
+    filter: blur(0.2em);
+  }
 img {
     border: solid 1px;
     margin: 5px;
-}
-
-article img[data-src] {
-    filter: blur(0.2em);
-  }
-  
-  article img {
     filter: blur(0em);
     transition: filter 0.5s;
-  }
+}
+
+
+  
