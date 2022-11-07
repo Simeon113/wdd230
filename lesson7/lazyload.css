@@ -11,7 +11,7 @@ img {
     border: solid 1px;
     margin: 5px;
     filter: blur(0em);
-    transition: filter 0.5s;
+    transition: filter 1s;
 }
 
 
