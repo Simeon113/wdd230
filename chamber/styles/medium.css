@@ -43,7 +43,7 @@
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: 3fr 2fr 3fr 2fr 3fr;
     }
-    main.discover div{
+    main.discover_page div{
         height: auto;
     }
 
@@ -94,23 +94,23 @@
     margin-top: 5%;
 }
 
-#discover {
+.discover {
     grid-column: 1/6;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
 }
-#discover_img {
+.discover_img {
     grid-column: 1/4;
 }
-#discover p {
+.discover p {
     grid-column: 4/6;
 }
-#demographic {
+.demographic {
     grid-column: 1/6;
 }
 
-#discover img:hover {
+.discover img:hover {
     opacity: .5;
 }
 
