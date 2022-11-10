@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Oswald';
+
+}
+
+div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
+}
+
+section {
+    background-color: #cbc3e3;
+    max-width: 500px;
+    margin: 15px;
+    padding: 10px auto;
+}
+
+img {
+    width: auto;
+    max-width: 285px;
+}
+
+header, footer {
+    background-color: aliceblue;
+    padding: 20px;
+}
