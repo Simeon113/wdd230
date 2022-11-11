@@ -75,7 +75,7 @@ function getLoadDate() {
 
 document.querySelector('#loadDate').value = loadDate
 
-const requestURL = 'https://simeon113.github.io/wdd230/chamber/data.json';
+const requestURL = 'https://simeon113.github.io/wdd230/chamber/data/data.json';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
