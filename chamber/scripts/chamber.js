@@ -89,6 +89,7 @@ fetch(requestURL)
     })
 
 function displayBuisnesses(buisness) {
+    let card = document.createElement('section');
     let logo = document.createElement('img')
     let h2 = document.createElement('h2');
     let link = document.createElement('link');
