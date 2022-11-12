@@ -67,7 +67,7 @@ nav ul.open {display: block;}
 main, #meeting {
     font-family: "Arima Madurai";
 }
-main.main div, main.discover_page div {
+main.main div, main.discover_page div, section{
     background-color: #D4A0A7;
     margin: .5vw;
     padding: .5vw;
@@ -244,3 +244,13 @@ form input.formBtn {
 img[data-src] {
     filter: blur(0.2em);
   }
+
+section img {
+    width: 50%;
+    height: auto;
+    padding: 20px;
+}
+
+section {
+    margin: 20px;
+}
