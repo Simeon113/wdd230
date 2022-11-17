@@ -5,14 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>City of Muskego Chamber</title>
-    <link href="css/normalize.css" rel="stylesheet">
+    <!-- <link href="css/normalize.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/chamber.js" defer></script>
-    <script src="scripts/windchill.js" defer></script>
     <script src="https://kit.fontawesome.com/a4a3260b99.js" crossorigin="anonymous"></script>
-    <script src="weatherapi/weatherapi.js" defer></script>
+    <script src="scripts/weatherapi.js" defer></script>
     <meta name="description" content="The homepage for the Muskego Chamber of Commerce page, made for WDD 230">
 </head>
 <body>
@@ -61,15 +60,14 @@
             <h2>Weather</h2>
             <div id="weather1">
                 <div id="weather2">
-                    <p>Cloudy</p>
-                    <p><span id="current-temp"></span>°F</p>
+                    <p id="desc"></p>
+                    <p><span id="temperature"></span></p>
                 </div>
                 <div>
-                    <i class="fa-solid fa-cloud"></i>
-                    <p>Percip: 3%</p>
-                    <p>Humidity: 66%</p>
-                    <p>Wind: <span id="wind">15</span> mph</p>
-                    <p>Windchill: <span id="windchill"></span></p>
+                    <img id="icon"></img>
+                    <p id="humidity"></p>
+                    <span id="wind"></span>
+                    <span id="windchill"></span>
                 </div>
             </div>
         </div>
