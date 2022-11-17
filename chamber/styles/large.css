@@ -98,5 +98,15 @@
         grid-row: span 5;
     }
 
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 475px));
+        /* display: flex; */
+        /* grid-template-rows: 4; */
+    }
 
+    /* section {
+        min-width: 350;
+        max-width: 475;
+    } */
 }

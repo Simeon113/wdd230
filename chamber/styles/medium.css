@@ -118,4 +118,15 @@ form {
     max-width: 40rem;
 }
 
+/* main.directory {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* display: flex; */
+}
+
 }

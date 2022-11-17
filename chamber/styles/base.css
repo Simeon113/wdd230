@@ -248,9 +248,15 @@ img[data-src] {
 section img {
     width: 50%;
     height: auto;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 section {
     margin: 20px;
+    padding: 20px;
+}
+
+section a {
+    font-size: 2rem;
+    text-decoration: none;
 }
