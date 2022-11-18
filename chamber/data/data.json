@@ -22,7 +22,7 @@
         "website": "https://tacobell.com/"
       },
       {
-        "imageurl": "Images/aldi.jpg",
+        "imageurl": "Images/aldi.png",
         "name": "Aldi",
         "address": "S69 W15361, W Janesville Rd, Muskego, WI 53150",
         "phone": "(855) 955-2534",
@@ -43,7 +43,7 @@
         "website": "https://thepopsmarketplace.com/"
       },
       {
-        "imageurl": "Images/dental.png",
+        "imageurl": "Images/fowarddental.png",
         "name": "Foward Dental",
         "address": "S76w18035 Janesville Rd, Muskego, WI 53150",
         "phone": "(262) 465-4232",

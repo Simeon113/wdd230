@@ -27,7 +27,7 @@ function displayBuisnesses(buisness) {
     ${buisness.phone}`;
 
     link.setAttribute('href', buisness.website)
-    link.innerText = buisness.website
+    link.innerText = `${buisness.name}'s Website`
 
 
 

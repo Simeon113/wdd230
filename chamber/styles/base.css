@@ -245,19 +245,21 @@ img[data-src] {
     filter: blur(0.2em);
   }
 
-section img {
+/* section img {
     width: 50%;
     height: auto;
-    /* padding: 20px; */
-}
+
+} */
 
 section {
     margin: 20px;
     padding: 20px;
+
 }
 
 section a {
-    font-size: 2rem;
+    font-size: 5vw;
+    color: black;
     text-decoration: none;
 }
 
@@ -268,4 +270,18 @@ section a {
 
 #temperature {
     font-size: 3rem;
+}
+
+.cards img{
+    height: 50%;
+    width: auto;
+}
+
+.cards section{
+    font-size: 2.5vw;
+    box-shadow: 8px 8px #C84630;
+}
+
+.cards section:hover {
+    scale: 105%;
 }

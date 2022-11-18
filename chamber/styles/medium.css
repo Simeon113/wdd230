@@ -129,5 +129,13 @@ form {
     /* display: flex; */
 
 }
+.cards section {
+    height: 29.5vw;
+    font-size: 1.25vw;
+}
+
+.cards a {
+    font-size: 2.5vw;
+}
 
 }
