@@ -283,5 +283,5 @@ section a {
 }
 
 .cards section:hover {
-    scale: 105%;
+    scale: 1.05;
 }
