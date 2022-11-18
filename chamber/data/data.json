@@ -24,14 +24,14 @@
       {
         "imageurl": "Images/aldi.png",
         "name": "Aldi",
-        "address": "S69 W15361, W Janesville Rd, Muskego, WI 53150",
+        "address": "S69W15361, W Janesville Rd, Muskego, WI 53150",
         "phone": "(855) 955-2534",
         "website": "https://www.aldi.us/"
       },
       {
         "imageurl": "Images/walmart.png",
         "name": "Walmart",
-        "address": "W159s6530 Moorland Rd, Muskego, WI 53150",
+        "address": "W159S6530 Moorland Rd, Muskego, WI 53150",
         "phone": "(414) 209-0317",
         "website": "https://walmart.com/"
       },
@@ -44,8 +44,8 @@
       },
       {
         "imageurl": "Images/forwarddental.png",
-        "name": "Foward Dental",
-        "address": "S76w18035 Janesville Rd, Muskego, WI 53150",
+        "name": "Forward Dental",
+        "address": "S76W18035 Janesville Rd, Muskego, WI 53150",
         "phone": "(262) 465-4232",
         "website": "https://fdmuskego.com/"
       },
