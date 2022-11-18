@@ -15,18 +15,18 @@
         "website": "https://waukeshabank.com/"
       },
       {
-        "imageurl": "Images/tacobell.png",
+        "imageurl": "Images/tacobell.svg",
         "name": "Taco Bell",
         "address": "S69W15615 W Janesville Rd, Muskego, WI 53150",
         "phone": "(414) 422-0276",
         "website": "https://tacobell.com/"
       },
       {
-        "imageurl": "Images/DQ.png",
-        "name": "Dairy Queen",
-        "address": "S69W15459 W Janesville Rd, Muskego, WI 53150",
-        "phone": "(414) 422-9740",
-        "website": "https://dairyqueen.com/"
+        "imageurl": "Images/aldi.jpeg",
+        "name": "Aldi",
+        "address": "S69 W15361, W Janesville Rd, Muskego, WI 53150",
+        "phone": "(855) 955-2534",
+        "website": "https://www.aldi.us/"
       },
       {
         "imageurl": "Images/DQ.png",
