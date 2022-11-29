@@ -20,7 +20,7 @@ function displayBuisnesses(buisness, i) {
     let spotlight = document.createElement('section');
     let name = document.createElement('h1');
     let logo = document.createElement('img')
-    let message = ducoment.createElement('h2')
+    let message = document.createElement('h2')
     let info = document.createElement('p');
     let link = document.createElement('a');
 
