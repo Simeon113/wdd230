@@ -5,70 +5,80 @@
         "name": "Dairy Queen",
         "address": "S69W15459 W Janesville Rd, Muskego, WI 53150",
         "phone": "(414) 422-9740",
-        "website": "https://dairyqueen.com/"
+        "website": "https://dairyqueen.com/",
+        "message": "Wonderful burgers and blizzards"
       },
       {
         "imageurl": "images/waukesha.jpeg",
         "name": "Waukesha State Bank",
         "address": "151 E Saint Paul Ave, Waukesha, WI 53188",
         "phone": "(262) 549-8500",
-        "website": "https://waukeshabank.com/"
+        "website": "https://waukeshabank.com/",
+        "message": "Best bank in Wisconsin"
       },
       {
         "imageurl": "images/tacobell.svg",
         "name": "Taco Bell",
         "address": "S69W15615 W Janesville Rd, Muskego, WI 53150",
         "phone": "(414) 422-0276",
-        "website": "https://tacobell.com/"
+        "website": "https://tacobell.com/",
+        "message": "No one does tacos like us"
       },
       {
         "imageurl": "images/aldi.png",
         "name": "Aldi",
         "address": "S69W15361, W Janesville Rd, Muskego, WI 53150",
         "phone": "(855) 955-2534",
-        "website": "https://www.aldi.us/"
+        "website": "https://www.aldi.us/",
+        "message": "Low prices, amazing groceries"
       },
       {
         "imageurl": "images/walmart.png",
         "name": "Walmart",
         "address": "W159S6530 Moorland Rd, Muskego, WI 53150",
         "phone": "(414) 209-0317",
-        "website": "https://walmart.com/"
+        "website": "https://walmart.com/",
+        "message": "Get more for cheaper"
       },
       {
         "imageurl": "images/cider.jpeg",
         "name": "Pop's MarketPlace",
         "address": "S70W16050 Janesville Rd, Muskego, WI 53150",
         "phone": "(414) 552-2079",
-        "website": "https://thepopsmarketplace.com/"
+        "website": "https://thepopsmarketplace.com/",
+        "message": "Famouse cider and donuts"
       },
       {
         "imageurl": "images/forwarddental.png",
         "name": "Forward Dental",
         "address": "S76W18035 Janesville Rd, Muskego, WI 53150",
         "phone": "(262) 465-4232",
-        "website": "https://fdmuskego.com/"
+        "website": "https://fdmuskego.com/",
+        "message": "Best dental care in Wisconsin"
       },
       {
         "imageurl": "images/milkcan.webp",
         "name": "Milk Can",
         "address": "S73W16770 W Janesville Rd, Muskego, WI 53150",
         "phone": "(262) 649-9209",
-        "website": "https://milkcanhamburgers.com/"
+        "website": "https://milkcanhamburgers.com/",
+        "message": "Amazing Wisconsin dairy and burgers"
       },
       {
         "imageurl": "images/bushy.png",
         "name": "Bushy's Pub and Grill",
         "address": "S67W14831 Janesville Rd, Muskego, WI 53150",
         "phone": "(414) 422-1035",
-        "website": "https://www.facebook.com/profile.php?id=100065465019900"
+        "website": "https://www.facebook.com/profile.php?id=100065465019900",
+        "message": "Wonderful food and atmosphere"
       },
       {
         "imageurl": "images/gingerbread.jpeg",
         "name": "The Gingerbread House",
         "address": "S63W16147 College Ave, Muskego, WI 53150",
         "phone": "(414) 422-9601",
-        "website": "gingerbreadfarmhouse.com/"
+        "website": "gingerbreadfarmhouse.com/",
+        "message": "Comfy enviroment and wonderful food"
       }
     ]
   }

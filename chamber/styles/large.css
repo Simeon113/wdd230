@@ -127,7 +127,16 @@
         height: 19.5vw;
         font-size: .85vw;
     }
+
+    .spotlight section {
+        height: 9.25vw;
+        font-size: .425vw;
+    }
     .cards a {
         font-size: 1.7vw;
+    }
+
+    .spotlight a {
+        font-size: .85vw;
     }
 }
