@@ -293,7 +293,7 @@ section a {
     line-height: .5;
 }
 .cards section:hover {
-    scale: 1.05;
+    transform: scale(1.05);
 }
 #spotlights h1{
     font-size: 7vw;

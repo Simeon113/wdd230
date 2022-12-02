@@ -135,7 +135,7 @@ form {
 main.contact {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    grid-template-rows: 2;
+    grid-template-rows: 1fr 1fr;
 }
 div.info {
     grid-column: 1;
