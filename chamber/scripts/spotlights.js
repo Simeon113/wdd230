@@ -9,18 +9,26 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        console.table(jsonObject);
         const buisnesses = jsonObject['buisnesses'];
-        let index = Math.floor(Math.random() * 10);
-        console.log(index);
-        displayBuisnesses(buisnesses, index);
+        let index1 = Math.floor(Math.random() * 10);
+        let index2 = Math.floor(Math.random() * 10);
+        let index3 = Math.floor(Math.random() * 10);
+        while (index1 == index2 || index1 == index3 || index2 == index3) {
+            index1 = Math.floor(Math.random() * 10);
+            index2 = Math.floor(Math.random() * 10);
+            index3 = Math.floor(Math.random() * 10);
+        } 
+        displayBuisnesses(buisnesses, index1, 1);
+        displayBuisnesses(buisnesses, index2, 2);
+        displayBuisnesses(buisnesses, index3, 3);
     })
 
-function displayBuisnesses(buisness, i) {
+function displayBuisnesses(buisness, i, n) {
     let spotlight = document.createElement('section');
     let name = document.createElement('h1');
     let logo = document.createElement('img')
-    let message = document.createElement('h2')
+    let message = document.createElement('h3')
+    let line = document.createElement('hr')
     let info = document.createElement('p');
     let link = document.createElement('a');
 
@@ -30,10 +38,14 @@ function displayBuisnesses(buisness, i) {
     logo.setAttribute('alt', `${buisness[i].name} Logo`);
     logo.setAttribute('loading', 'lazy');
 
-    info.innerText = `${buisness[i].phone} ${link}`;
-
+    
     link.setAttribute('href', buisness[i].website)
-    link.innerText = `${buisness[i].name}'s Website`
+    link.innerText = "Website";
+
+    message.innerText = buisness[i].message;
+    info.innerText = `${buisness[i].phone}  `;
+    info.appendChild(link)
+
 
 
 
@@ -41,10 +53,11 @@ function displayBuisnesses(buisness, i) {
     spotlight.appendChild(name)
     spotlight.appendChild(logo);
     spotlight.appendChild(message);
+    spotlight.appendChild(line)
     spotlight.appendChild(info);
 
+    spotlight.setAttribute('id', `spotlight${n}`)
 
 
-
-    document.querySelector('div.spotlight').appendChild(spotlight);
+    document.querySelector(`#spotlights`).appendChild(spotlight);
 }

@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/chamber.js" defer></script>
-    <script src="scripts/windchill.js" defer></script>
     <script src="https://kit.fontawesome.com/a4a3260b99.js" crossorigin="anonymous"></script>
     <meta name="description" content="The homepage for the Muskego Chamber of Commerce page, made for WDD 230">
 </head>
@@ -34,14 +33,15 @@
         </div>
         <span id="date"></span>
     </header>
-        <div>
+    <main class="contact">
+        <div class="info">
             <h1>Contact Us</h1>
             <h2>Address</h2>
             <p>S73W16663 W Janesville Rd, Muskego, WI</p>
-            <h2>(385) 535-5106</h2>
-            <p>phone</p>
+            <h2>Phone</h2>
+            <p>(385) 535-5106</p>
         </div>
-        <div>
+        <div class="contacts">
             <h2>Points of Contact</h2>
             <h3>Simeon Barfuss</h3>
             <p>President</p>
@@ -60,9 +60,15 @@
                 </fieldset>
     
     
-                <input class="formBtn" type="submit" value="Place Aplication"></input>
+                <input class="formBtn" type="submit" value="Send"></input>
     
             </form>
+        </div>
+        <div id="visit">
+            <p><span id="visits"></span></p>
+        </div>
+    </main>
+       
     <footer>
         <div id="upperfooter">
             <a class="logo_footer" href="index.html"><img src="images/logo.webp" alt="site logo"></a>

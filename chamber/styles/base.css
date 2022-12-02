@@ -7,7 +7,7 @@ main {
     margin: auto;
     margin: 2.5vw;
     text-align: center;
-    
+    box-sizing: border-box;
 }
 
 .logo {
@@ -101,9 +101,7 @@ img {
 #spotlights{
     height: auto;
 }
-#spotlight1, #spotlight2, #spotlight3{
-    background-color:  #E3E3E3;
-}
+
 #spotlight3 {
     display: none;
 }
@@ -113,12 +111,8 @@ img {
 #weather1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1.5fr;
 }
-
-#weather2 {
-    font-size: 1.5rem;
-}
-
 .logo_footer {
     width: 50%;
 }
@@ -135,22 +129,16 @@ img {
     right: 0;
     left: 0;
     margin:40% 15%;
+    text-decoration: none;
     
 }
-
-
-
-h2, h3, button {
+h1, h2, h3, #joinbtn, #joinbtn2{
     font-family: "Francois One";
 }
-
 .discover {
     height: auto;
     font-size: 1.3rem;
     text-align: left;
-
-    
-
 }
 .discover p {
     padding: 5%;
@@ -166,18 +154,13 @@ div.form {
     display: block;
     text-align: center;
 }
-
 form {
-    /* display: inline-block; */
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-
     background-color: #E3E3E3;
     border-radius: 10px;
     padding: 2rem;
-
-
 }
 
 form fieldset {
@@ -245,12 +228,6 @@ img[data-src] {
     filter: blur(0.2em);
   }
 
-/* section img {
-    width: 50%;
-    height: auto;
-
-} */
-
 section {
     margin: 20px;
     padding: 20px;
@@ -263,39 +240,107 @@ section a {
     text-decoration: none;
 }
 
+#desc {
+    grid-column: 1;
+    grid-row: 1;
+}
+
 #icon {
-    width: 10vw;
+    grid-column: 2;
+    grid-row: 1;
+    width: 25vw;
     height: auto;
+    margin: auto;
+    
 }
-
 #temperature {
-    font-size: 3rem;
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 4rem;
 }
+#winfo {
+    grid-column: 2;
+    grid-row: 2;
 
+}
+#temperature, #winfo {
+    margin: 0;
+    
+}
+#desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+}
 .cards img{
     height: 50%;
     width: auto;
 
 }
-
-.spotlight img{
-    height: 40%;
+#spotlights img{
+    height: 43%;
     width: auto;
-
 }
-
-
 .cards section{
-    font-size: 2.5vw;
+    font-size: 2vw;
     box-shadow: 8px 8px #C84630;
 }
-
-.spotlight section{
-    font-size: 2vw;
+#spotlights section{
+    font-size: 4vw;
     background-color: #E3E3E3;
+
+    line-height: .5;
 }
-
-
 .cards section:hover {
     scale: 1.05;
+}
+#spotlights h1{
+    font-size: 7vw;
+}
+#spotlights a {
+    font-size: 4vw;
+}
+main.contact div.info, main.contact div.contacts, main.contact div.form {
+    background-color: #E3E3E3;
+    color: #C84630;
+    text-align: left;
+    margin: 1.5vw;
+    padding: 1.5vw;
+}
+main.contact h1, main.contact h2,main.contact h3 {
+    font-weight: normal;
+}
+.cards div {
+    text-align: left;
+    background-color: #E3E3E3;
+}
+.cards div a {
+    text-decoration: none;
+    position: relative;
+    float: right;
+}
+.cards div p {
+    grid-column: 2;
+    margin: 0 2vw;
+}
+.cards span {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    padding: 1.5vw;
+}
+.cards div:nth-child(even) {
+    background-color: #fff;
+}
+main.directory #displaymenu {
+    background-color: #E3E3E3;
+    margin-bottom: 1vw;
+}
+main.directory button {
+    background-color: #D4A0A7;
+    color: #fff;
+    margin: 1vw;
+    border-radius: 5%;
+    padding: .5vw 1.5vw;
 }
