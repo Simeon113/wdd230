@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <meta name="description" content="The homepage for Bountiful Foods">
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/lastmodified.js" defer></script>
+    <script src="scripts/specialtydrinks.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="https://kit.fontawesome.com/a4a3260b99.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a class="logo" href="home.html"><img src="images/fruit.webp" alt="logo"></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <button id="menu"><span>&#9776;</span><span>X</span></button>
+            <nav>
+                <ul id="navigation">
+                    <li><a href="fresh.html">Home</a></li>
+                    <li><a href="fresh.html">Fresh</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="home">
+        <div id="hero">
+            <img src="images/herofruit.jpeg" alt="fruit">
+        </div>
+        <div id="buissness">
+            <div>
+                <h1>Who are we?</h1>
+                <p>Welcome to Bountiful foods!! Our mission is to inform about the wonderful benifits fruit provides and allow more people to expirience its benifits.</p>
+            </div>
+            <div>
+                <h1>Where can you find us?</h1>
+                <p>We are available at 385-535-5106 from 9am to 5pm everyday! You can also reach us at bountifulfoods@gmail.com</p>
+            </div>
+        </div>
+        <div id="mix">
+            <img src="images/smoothies.webp" alt="drink mix">
+            <a href="fresh.html">Make your own drink mix!</a>
+        </div>
+        <div id="specialty">
+            <span id="smoothies"></span>
+        </div>
+        <div id="coast">
+            <img src="images/coast.jpeg" alt="coast">
+            <p>Bountiful Foods is located in Beaufort, North Carolina. One of the oldest towns in the state, you'll be sure to love the areas history and beuatiful coast.</p>
+        </div>
+        <div id="weather">
+            <div id="today">
+                <span id="temperature"></span>
+                <img id="icon" src="placeholder.png" alt="weather_icon">
+                <span id="desc"></span>
+                <span id="humidity"></span>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="foot">
+            <p>Last modified: <span id="modified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>
