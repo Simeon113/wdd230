@@ -17,12 +17,15 @@
 </head>
 <body>
     <header>
-        <div class="nav">
-            <a class="logo" href="home.html"><img src="images/fruit.webp" alt="logo"></a>
-            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
-            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
-            <button id="menu"><span>&#9776;</span><span>X</span></button>
+        <div id="nav">
+            <section id="mainnav">
+                <a class="logo" href="home.html"><img src="images/fruit.webp" alt="logo"></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <button id="menu"><span>&#9776;</span><span>X</span></button>
+            </section>
+
             <nav>
                 <ul id="navigation">
                     <li><a href="fresh.html">Home</a></li>
@@ -31,17 +34,19 @@
                 </ul>
             </nav>
         </div>
+
+
     </header>
     <main id="home">
         <div id="hero">
             <img src="images/herofruit.jpeg" alt="fruit">
         </div>
         <div id="buissness">
-            <div>
+            <div id="what">
                 <h1>Who are we?</h1>
                 <p>Welcome to Bountiful foods!! Our mission is to inform about the wonderful benifits fruit provides and allow more people to expirience its benifits.</p>
             </div>
-            <div>
+            <div id="where">
                 <h1>Where can you find us?</h1>
                 <p>We are available at 385-535-5106 from 9am to 5pm everyday! You can also reach us at bountifulfoods@gmail.com</p>
             </div>
@@ -54,16 +59,18 @@
             <span id="smoothies"></span>
         </div>
         <div id="coast">
-            <img src="images/coast.jpeg" alt="coast">
-            <p>Bountiful Foods is located in Beaufort, North Carolina. One of the oldest towns in the state, you'll be sure to love the areas history and beuatiful coast.</p>
+            <img id = "coastimg" src="images/coast.jpeg" alt="coast">
+            <section id="coastinfo">Bountiful Foods is located in Beaufort, North Carolina. One of the oldest towns in the state, you'll be sure to love the area's history and beautiful coast.</section>
         </div>
         <div id="weather">
-            <div id="today">
-                <span id="temperature"></span>
-                <img id="icon" src="placeholder.png" alt="weather_icon">
-                <span id="desc"></span>
-                <span id="humidity"></span>
+            <h2>Weather</h2>
+            <div id="weather1">
+                    <p id="desc"></p>
+                    <p id="temperature"></p>
+                    <img id="icon" src="placeholder.png" alt="weather_icon">
+                    <p id="humidity"><span id="humidity"></span></p>
             </div>
+            <h2>Three Day Forcast</h2>
             <div id="forcast">
                 <span id="day1"></span>
                 <span id="day2"></span>

@@ -1,3 +1,104 @@
 @media only screen and (min-width: 35rem){
-    
+    #menu {display: none;}
+    nav ul#navigation{
+        display: flex;
+        margin-left: 2vw;;
+    }
+    nav ul li a {
+        border: none;
+        background-color: #361134;
+        color: white;
+        margin: 2vw;
+    }
+    i {
+        font-size: 4.5vw;
+    }
+    #nav{
+        display: flex;
+
+        align-items: center;
+    } 
+    header div {
+        margin: 0;
+        font-size: 1.5vw;
+    }
+    header ul li a {
+        padding: 1.5vw;
+    }
+    a.logo img{
+        width: 9vw;
+    }
+    #home{
+        display: grid;
+        grid-template-columns: 5fr 2fr;
+    }
+    #hero{
+        grid-column: 1;
+        padding: 0;
+        margin: 1vw;
+    }
+    #buissness{
+        grid-column: 2;
+        padding: 0;
+        margin: 1vw;
+        padding: .2vw;
+        font-size: 1.4vw;
+    }
+    #buissness div{
+        padding: 0;
+        margin: 1vw;
+    }
+    #mix{
+        grid-column: 1/3;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+    #speciality{
+        grid-column: 1/3;
+    }
+    #coast{
+        grid-column: 1/3;
+        font-size: 3vw;
+    }
+    #weather{
+        grid-column: 1/3;
+        display: grid;
+        grid-template-rows: 1fr 3fr;
+        grid-template-columns: 1fr 2fr;
+
+
+    }
+    #weather h2{
+        grid-row: 1;
+        font-size: 3vw;
+    }
+    #weather div,  #humidity, #desc{
+        grid-row: 2;
+        font-size: 2.5vw;
+        padding: 1vw;
+        margin: 0;
+    }
+    #temperature{
+        font-size: 2.5vw;
+    }
+    #icon {
+        width: 10vw;
+    }
+    #forcast{
+        align-items: center;
+    }
+    #forcast span{
+        font-size: 1.8vw;
+        
+    }
+    #people{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+    #people div{
+        margin: 0vw;
+        padding: 1vw;
+    }
+
 }

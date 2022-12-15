@@ -6,3 +6,176 @@ nav ul.open {display: block;}
 
 #menu.open span:nth-child(1) {display: none;}
 #menu.open span:nth-child(2) {display: block;}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Klee+One&display=swap');
+
+body {
+
+    color: #361134;
+    margin: 7vw;
+    font-family: 'Klee One';
+}
+
+h1, h2, h3, h4, header, label {
+    font-family: 'Josefin Sans';
+}
+
+div {
+    background-color: #f391a0;
+    padding: 3vw;
+    margin: 3vw;
+}
+
+header div{
+    background-image: linear-gradient(to right, white, #b0228c);;
+    align-items: center;
+}
+
+main {
+    text-align: center;
+    margin: auto;
+}
+button, i{
+    margin: 2vw;
+    background: transparent;
+    border: none;
+    font-size: 7vw;
+    color: #361134;;
+    
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    color: #361134;
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    border-top: 1px solid #361134;
+}
+
+#mainnav {
+    display: flex;
+    align-items: center;
+}
+a.logo img{
+    width: 15vw;
+    margin-right: 9vw;
+    margin-left: 1vw;
+}
+
+nav ul li a:hover {
+    background-color: #ea3788;
+}
+#hero{
+    margin: 5vw;
+}
+img{
+    width: 100%;
+}
+#buissness {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+#coastimg {
+    opacity: 50%;
+}
+#coast {
+    position: relative;
+    text-align: center;
+
+}
+#coastinfo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    font-weight: bold;
+}
+footer div{
+    background-color: #b0228c;
+    color: white;
+}
+#weather{
+    height: auto;
+    color: #361134;
+    font-size: 2rem;
+}
+#weather1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr .9fr;
+    align-items: center;
+}
+#desc {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+}
+
+#icon {
+    grid-column: 1;
+    grid-row: 1;
+    width: 25vw;
+    height: auto;
+    margin: auto;
+    
+}
+#temperature {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 4rem;
+
+}
+
+#temperature, #humidity {
+    margin: 0;
+    
+}
+#humidity{
+    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+}
+#forcast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 3.7vw;
+    margin: 0
+
+
+}
+#forcast span{
+    padding: 3vw;
+    border-right: 2px solid #361134;
+}
+#forcast span:nth-child(3) {
+    border: none;
+}
+#form {
+    text-align: left;
+}
+#user {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+#user input {
+    grid-column: 2;
+}
+#user label {
+    grid-column: 1;
+}
+#map iframe{
+    width: 70vw;
+}

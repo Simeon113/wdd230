@@ -33,7 +33,7 @@ async function apiFetch() {
 
 
 }
-async function apiFetch() {
+async function apiFetchForcast() {
     try {
         const response = await fetch(forcastURL);
         if (response.ok) {
@@ -51,6 +51,7 @@ async function apiFetch() {
 }
 
 apiFetch();
+apiFetchForcast();
 
 
 function displayResults(weatherData) {
@@ -78,9 +79,9 @@ function displayResultsForcast(weatherData) {
 
 
 
-    day1.innerHTML = `${days[tommorow]} :<strong>${TempOne}</strong>°F`;
-    day2.innerHTML = `${days[dayaftertommorow]} :<strong>${TempTwo}</strong>°F`;
-    day3.innerHTML = `${days[dayafterdayaftertommorrow]} :<strong>${TempThree}</strong>°F`;
+    day1.innerHTML = `${days[tommorow]}: <strong>${TempOne}</strong>°F`;
+    day2.innerHTML = `${days[dayaftertommorow]}: <strong>${TempTwo}</strong>°F`;
+    day3.innerHTML = `${days[dayafterdayaftertommorrow]}: <strong>${TempThree}</strong>°F`;
 
 
 

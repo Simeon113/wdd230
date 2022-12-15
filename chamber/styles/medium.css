@@ -166,4 +166,8 @@ main.contact div.form{
 #desc{
     font-size: 3vw;
 }
+#contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 }

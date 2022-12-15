@@ -11,11 +11,12 @@
     <meta name="description" content="The fresh for Bountiful Foods">
     <script src="scripts/menu.js" defer></script>
     <script src="scripts/lastmodified.js" defer></script>
+    <script src="scripts/fruitlist.js" defer></script>
     <script src="https://kit.fontawesome.com/a4a3260b99.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <div class="nav">
+        <div id="nav">
             <a class="logo" href="home.html"><img src="images/fruit.webp" alt="logo"></a>
             <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
             <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
@@ -31,9 +32,28 @@
         </div>
     </header>
     <main id="fresh">
-        <form>
-            
-        </form>
+        <div id="form">
+            <form id='smoothieform' method="get" action="">
+                <fieldset id="user">
+                    <legend>Information</legend>
+                    <label class="text">First Name* <input id="fname" type="text" name="fname" required></label>
+                    <label class="text">Last Name* <input id ="lname" type="text" name="lname" required></label>
+                    <label class="text">Email* <input id="email" type="email" name="email" placeholder="example@gmail.com" required></label>
+                    <label class="text">Phone Number<input id="phone" type="tel" name="phone" required></label>
+
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Mixture Options</legend>
+                    <div id="fruits"></div>
+
+
+                    <label class="text">Additional instructions <input id="instruction" type="text" name="instructions"></label>
+                </fieldset>
+                <input id="formBtn" type="button" value="Create Smoothie!!" onclick="submited()">
+    
+            </form>
+        </div>
     </main>
     <footer>
         <div class="foot">
